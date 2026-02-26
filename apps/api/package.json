@@ -1,0 +1,23 @@
+{
+  "name": "slack0",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run src/index.ts"
+  },
+  "dependencies": {
+    "@chat-adapter/slack": "^4.14.0",
+    "@chat-adapter/state-redis": "^4.14.0",
+    "@hono/standard-validator": "^0.2.2",
+    "@scalar/hono-api-reference": "^0.9.45",
+    "chat": "^4.14.0",
+    "hono": "^4.12.2",
+    "hono-openapi": "^1.2.0",
+    "quansync": "^1.0.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1",
+    "typescript": "^5.8.3"
+  }
+}
